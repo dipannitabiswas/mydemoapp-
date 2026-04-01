@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+         My first React App with Docker and Jenkins. This is a simple React application that serves as a starting point for learning React and integrating it with Docker and Jenkins for continuous integration and deployment.
         </p>
         <a
           className="App-link"
@@ -15,7 +15,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React With Dipannita
         </a>
       </header>
     </div>
