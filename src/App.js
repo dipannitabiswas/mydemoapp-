@@ -1,23 +1,18 @@
-import logo from './logo.svg';
+import Imagecard from './Components/Imagecard'; // imagecard is a functional component.
 import './App.css';
 
 function App() {
   return (
+    //JSX= javascript xml
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-         My first React App with Docker and Jenkins. This is a simple React application that serves as a starting point for learning React and integrating it with Docker and Jenkins for continuous integration and deployment.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React With Dipannita
-        </a>
-      </header>
+      <Imagecard 
+      Name="Dipannita Biswas"
+      ImgLink="https://avatars.githubusercontent.com/u/177311677?v=4"
+       />
+      <Imagecard 
+      Name="Github" 
+      ImgLink="https://pngimg.com/uploads/github/github_PNG67.png" 
+      />
     </div>
   );
 }
